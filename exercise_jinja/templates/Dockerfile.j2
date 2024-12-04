@@ -1,0 +1,11 @@
+FROM {{ base_image }}
+
+WORKDIR /app
+
+COPY . /app
+
+RUN pip install -r requirements.txt
+
+EXPOSE {{ app_port }}
+
+CMD ["python", "app.py"]
