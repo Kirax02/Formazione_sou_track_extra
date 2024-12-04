@@ -6,9 +6,9 @@
     env: "sviluppo"
 
     whitelist:
-      - Pippo
-      - Paperino
-      - Topolino
+      - pippo
+      - paperino
+      - topolino
 
     base_image: "python:3.9-slim"
     app_port: 5000
